@@ -1,6 +1,6 @@
 {
   "name": "ChromeToDb",
-  "description": "Save bookmarks straight into your Notion DB",
+  "description": "Save bookmarks straight into your Notion DB. https://github.com/yffenim/chromeToNotion",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
