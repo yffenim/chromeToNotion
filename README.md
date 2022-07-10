@@ -1,7 +1,5 @@
 # Save web page notes from Chrome to Notion DB
 
-Made for fanboys of Raymond Hettinger.
-
 Chrome extension Next.js template forked from [Next Chrome](https://github.com/thomaswang/next-chrome)
 
 
@@ -20,6 +18,8 @@ You can keep the default settings of this extension by making your DB table matc
 ```
 
 Or you can adjust the code found here `next-app/pages/index.js` to match your needs.
+
+---
 
 ### Get the API credentials
 
@@ -46,6 +46,8 @@ On the same file, add your Database ID to:
     },
 ```
 
+---
+
 ### Run the extension
 
 ```lang-js
@@ -54,7 +56,7 @@ cd next-app
 yarn 
 
 yarn build
-yarn build:linux # on Linux
+yarn build:linux // on Linux
 ```
 
 Go to `chrome://extensions/` and select **Load unpacked**

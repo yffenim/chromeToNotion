@@ -24,7 +24,7 @@ const IndexPage = () => {
      try {
        await notion.pages.create({
          parent: {
-           database_id: <YOUR_DATABASE_ID/>,
+          database_id: <YOUR_DATABASE_ID/>,
          },
          properties: {
            Title: { title: [{text: { content: bookmark.title}}]},
